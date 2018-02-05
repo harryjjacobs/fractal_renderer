@@ -68,21 +68,6 @@
 				}
 
 				gl_FragColor = vec4(col, 1.0);
-
-				/*vec2 fractal = pos;
-				int iter = 0;
-				for (int i = 0; i < 128; i++) {
-					fractal = pos + vec2(
-						fractal.x * fractal.x - fractal.y * fractal.y,
-						2.0 * fractal.x * fractal.y
-					);
-					iter++;
-				}*/
-				//float color = float(i) / 20.0;
-				//gl_FragColor = vec4(fractal, float(iter == 20 ? 0.0 : float(iter)) / 127.0, 1);
-				//vec4 col;
-				//getColour(iter, col);
-				//gl_FragColor = col;
 			}
 		</script>
 	</body>
